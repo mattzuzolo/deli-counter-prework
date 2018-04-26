@@ -11,10 +11,9 @@ def line (katz_deli)
     
     katz_deli.each_with_index do |thing, index|
       newLine << "#{index + 1}. #{katz_deli[index]}"
-  end
+    end
     
   puts "The line is currently: #{newLine.join(" ")}"
-    
   end
 end
 
